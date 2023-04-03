@@ -114,9 +114,9 @@ a {
 	max-width: 300px;
 }
 .profile_name_firstName {
-	color: rgb(104, 101, 101);
-	font-weight: 200;
-	font-size: clamp(2rem, 8vw, 4rem);
+    color: var(--primary-color);
+	font-weight: 700;
+	font-size: clamp(2.5rem, 9vw, 5rem);
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: -0.8rem;
@@ -124,7 +124,7 @@ a {
 .profile_name_lastName {
 	color: var(--primary-color);
 	font-weight: 700;
-	font-size: clamp(2.5rem, 15vw, 7rem);
+	font-size: clamp(2.5rem, 9vw, 5rem);
 	text-transform: uppercase;
 	display: block;
 }
